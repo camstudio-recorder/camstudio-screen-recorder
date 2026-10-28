@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ScreenRecorderLib</id>
+    <version>7.0.1</version>
+    <authors>Sverre Kristoffer Skodje</authors>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/sskodje/ScreenRecorderLib</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A .NET library for screen recording in Windows, using Microsoft Media Foundation for realtime encoding to video or image files.</description>
+    <summary />
+    <readme>README.md</readme>
+    <releaseNotes>
+      • Fix for stalled recordings caused by missing audio padding on silent wasapi captures.
+    </releaseNotes>
+    <copyright>Copyright © Sverre Kristoffer Skodje 2025</copyright>
+    <language>en-GB</language>
+    <tags>Screen Recording Windows .NET</tags>
+  </metadata>
+  <files>
+    <file src="ScreenRecorderLib.targets" target="build\ScreenRecorderLib.targets" />
+    <file src="..\ScreenRecorderLib\bin\x64\Release\ScreenRecorderLib.dll" target="build\x64\ScreenRecorderLib.dll" />
+    <file src="..\ScreenRecorderLib\bin\x64\Release\ScreenRecorderLib.xml" target="build\x64\ScreenRecorderLib.xml" />
+    <file src="..\ScreenRecorderLib\bin\x64\Release\ScreenRecorderLib.pdb" target="build\x64\ScreenRecorderLib.pdb" />
+    <file src="..\ScreenRecorderLib\bin\x86\Release\ScreenRecorderLib.dll" target="build\x86\ScreenRecorderLib.dll" />
+    <file src="..\ScreenRecorderLib\bin\x86\Release\ScreenRecorderLib.xml" target="build\x86\ScreenRecorderLib.xml" />
+    <file src="..\ScreenRecorderLib\bin\x86\Release\ScreenRecorderLib.pdb" target="build\x86\ScreenRecorderLib.pdb" />
+    <file src="..\ScreenRecorderLib\bin\ARM64\Release\ScreenRecorderLib.dll" target="build\ARM64\ScreenRecorderLib.dll" />
+    <file src="..\ScreenRecorderLib\bin\ARM64\Release\ScreenRecorderLib.xml" target="build\ARM64\ScreenRecorderLib.xml" />
+    <file src="..\ScreenRecorderLib\bin\ARM64\Release\ScreenRecorderLib.pdb" target="build\ARM64\ScreenRecorderLib.pdb" />
+    <file src="..\LICENSE" target="LICENSE" />
+    <file src="..\README.md" target="README.md" />
+  </files>
+</package>
